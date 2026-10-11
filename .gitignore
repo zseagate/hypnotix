@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*.log
+*.bin
+*.tsv
+*.m3u8
+.env
+*.keyring

@@ -1,0 +1,69 @@
+#EXTM3U
+# Curated news channels for Hypnotix
+# Generated 2026-10-11. Channels marked [verified] were confirmed to decode
+# video (h264) through this box's mpv 0.37 engine. YouTube entries use
+# watch?v= URLs because the channel /live form fails on this mpv build.
+# Sources blocked by the local proxy are listed commented out at the bottom.
+
+# ---------------- Taiwan news (YouTube live) ----------------
+#EXTINF:-1 tvg-name="中天新聞 CTI News" group-title="新聞-中文",中天新聞 CTI News
+https://www.youtube.com/watch?v=vr3XyVCR4T0
+#EXTINF:-1 tvg-name="東森新聞 EBC News" group-title="新聞-中文",東森新聞 EBC News
+https://www.youtube.com/watch?v=V1p33hqPrUk
+#EXTINF:-1 tvg-name="東森財經新聞 EBC Finance" group-title="新聞-中文",東森財經新聞 EBC Finance
+https://www.youtube.com/watch?v=1I2iq41Akmo
+#EXTINF:-1 tvg-name="TVBS 新聞" group-title="新聞-中文",TVBS 新聞
+https://www.youtube.com/watch?v=m_dhMSvUCIc
+#EXTINF:-1 tvg-name="TVBS ON AIR" group-title="新聞-中文",TVBS ON AIR
+https://www.youtube.com/watch?v=2mCSYvcfhtc
+#EXTINF:-1 tvg-name="華視新聞 CTS News" group-title="新聞-中文",華視新聞 CTS News
+https://www.youtube.com/watch?v=wM0g8EoUZ_E
+#EXTINF:-1 tvg-name="民視新聞 FTV News" group-title="新聞-中文",民視新聞 FTV News
+https://www.youtube.com/watch?v=ylYJSBUgaMA
+#EXTINF:-1 tvg-name="公視新聞 PTS News" group-title="新聞-中文",公視新聞 PTS News
+https://www.youtube.com/watch?v=quwqlazU-c8
+#EXTINF:-1 tvg-name="寰宇新聞 SET News" group-title="新聞-中文",寰宇新聞 SET News
+https://www.youtube.com/watch?v=6IquAgfvYmc
+#EXTINF:-1 tvg-name="寰宇財經 SET Finance" group-title="新聞-中文",寰宇財經 SET Finance
+https://www.youtube.com/watch?v=yAUQQ0DhPxI
+#EXTINF:-1 tvg-name="台視新聞 TTV News" group-title="新聞-中文",台視新聞 TTV News
+https://www.youtube.com/watch?v=9iRAqBMakXY
+#EXTINF:-1 tvg-name="中視新聞 CTV News" group-title="新聞-中文",中視新聞 CTV News
+https://www.youtube.com/watch?v=baDV1O5EBP0
+#EXTINF:-1 tvg-name="非凡財經 USTV" group-title="新聞-中文",非凡財經 USTV
+https://www.youtube.com/watch?v=eA6Aczd3FZM
+
+# ---------------- International news ----------------
+#EXTINF:-1 tvg-name="CNN International" group-title="新聞-英文",CNN International
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-name="BBC News" group-title="新聞-英文",BBC News
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+
+# ---------------- Valid but blocked by local proxy ----------------
+# These return HTTP 200 for the playlist but the segment fetch is cut off by
+# the 127.0.0.1:3067 proxy on this machine (RTHK/Phoenix also need a Referer
+# header). Un-comment them if Hypnotix runs without that proxy.
+#EXTINF:-1 tvg-name="Al Jazeera English" group-title="新聞-英文",Al Jazeera English
+#https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
+#EXTINF:-1 tvg-name="DW English" group-title="新聞-英文",DW English
+#https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+#EXTINF:-1 tvg-name="CGTN" group-title="新聞-中文",CGTN
+#https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
+#EXTINF:-1 tvg-name="Reuters" group-title="新聞-英文",Reuters
+#https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8
+#EXTINF:-1 tvg-name="CBS News" group-title="新聞-英文",CBS News
+#https://dai.google.com/linear/hls/event/Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8
+#EXTINF:-1 tvg-name="ABC News Live" group-title="新聞-英文",ABC News Live
+#https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8
+#EXTINF:-1 tvg-name="LiveNOW from FOX" group-title="新聞-英文",LiveNOW from FOX
+#https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="India Today" group-title="新聞-英文",India Today
+#https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8
+#EXTINF:-1 tvg-name="Scripps News" group-title="新聞-英文",Scripps News
+#https://content.uplynk.com/channel/4bb4901b934c4e029fd4c1abfc766c37.m3u8
+#EXTINF:-1 tvg-name="USA Today" group-title="新聞-英文",USA Today
+#https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00731-gannettcoinc-usatoday/playlist.m3u8
+#EXTINF:-1 tvg-name="Russia Today" group-title="新聞-英文",Russia Today
+#https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
+#EXTINF:-1 tvg-name="SABC News" group-title="新聞-英文",SABC News
+#https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/playlist.m3u8

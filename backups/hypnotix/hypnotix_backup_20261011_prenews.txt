@@ -1,0 +1,7 @@
+[/]
+active-provider='IPTV-ORG-MOVIES'
+providers=['Free-TV:::url:::https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8:::::::::', 'china:::local:::file:///home/mac/Downloads/playlist_china.m3u8:::::::::', 'Free-TV CDN:::url:::https://cdn.jsdelivr.net/gh/free-TV/IPTV@master/playlist.m3u8:::::::::', 'IPTV-ORG-ZH:::url:::https://iptv-org.github.io/iptv/languages/zho.m3u:::::::::', 'IPTV-ORG-CN:::url:::https://iptv-org.github.io/iptv/countries/cn.m3u:::::::::', 'IPTV-ORG-HK:::url:::https://iptv-org.github.io/iptv/countries/hk.m3u:::::::::', 'IPTV-ORG-TW:::url:::https://iptv-org.github.io/iptv/countries/tw.m3u:::::::::', 'IPTV-ORG-SPORTS:::url:::https://iptv-org.github.io/iptv/categories/sports.m3u:::::::::', 'IPTV-ORG-MOVIES:::url:::https://iptv-org.github.io/iptv/categories/movies.m3u:::::::::']
+use-local-ytdlp=true
+
+=== news.m3u provider to be added ===
+News:::local:::file:///home/mac/Downloads/news.m3u:::::::::
