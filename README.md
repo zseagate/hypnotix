@@ -1,112 +1,99 @@
-# hypnotix-news
+# hypnotix
 
-自动刷新的 Hypnotix 新闻频道播放列表。
+Setup notes, a curated news playlist, and tooling for getting
+[Hypnotix](https://hypnotix.org) TV working on a Mac Mini running Ubuntu
+(Cinnamon).
 
-YouTube 的直播视频 ID 会频繁轮换——本项目实测中，台湾新闻台 12 个频道里有 5 个的直播 ID 在几小时内就变了，最快的一个半小时内换了两轮。手动维护注定失效，所以这里用一个定时任务保持播放列表最新。
+Collected over an Oct 2026 troubleshooting session. Everything here was validated
+against this box's actual `libmpv 0.37` — Hypnotix's real playback engine — not
+just "returns HTTP 200".
 
-## 快速开始
-
-在 Hypnotix 里添加一个 Provider，URL 填下面任一个（把 `<YOUR_GITHUB_USER>` 换成你的账号）：
-
-```
-https://raw.githubusercontent.com/<YOUR_GITHUB_USER>/hypnotix-news/main/playlist.m3u
-```
-
-或走 jsdelivr CDN（缓存延迟稍长，但国内网络下通常更稳）：
+## Layout
 
 ```
-https://cdn.jsdelivr.net/gh/<YOUR_GITHUB_USER>/hypnotix-news@main/playlist.m3u
+playlists/
+  news.m3u                  Curated news playlist, every channel playback-verified
+scripts/
+  add_providers.py          Writes verified providers into org.x.hypnotix.providers
+  verify_providers.py       Tests candidate providers with Hypnotix's own Manager code
+  verify_news.py            Verifies configured providers + any passed in as args
+  classify.py               Per-stream libmpv decode test, proxy vs direct comparison
+  mpv_all.py                Authoritative playback matrix (news + YouTube live + baselines)
+  playback_test.py          libmpv probe, requires both video and audio format + time advancing
+  yttest.py                 Single YouTube-live stream probe with mpv log dump
+  durtest.py                YouTube channel /live vs @handle/live URL forms
+  ffcheck.sh                ffmpeg/ffprobe batch playback check (CSV: name<TAB>url)
+  check.sh                  curl-only playlist HTTP/size/channel-count check
+  t.sh                      curl-only quick segment-count check
+  diag.py  mpvopt.py        mpv log dump / option-sensitivity probes
+  init_test.py              Can libmpv even init under Hypnotix's flag set?
+  zbdstest.py               Single-stream probe with per-tick property logging
 ```
 
-类型选 **url**（不是 local）。这样 Hypnotix 每次刷新播放列表都会拉到 Actions 刚生成的版本，你本机不需要跑任何脚本。
+## Quick start
 
-## 仓库结构
+```bash
+# install what the scripts assume
+sudo apt install hypnotix yt-dlp ffmpeg curl
 
-```
-channels.json                 频道清单（唯一需要手改的文件）
-playlist.m3u                  生成的播放列表（别手改，Actions 会覆盖）
-status.json                   上次运行的解析结果与失败记录
-scripts/update_playlist.py    发现直播 ID 并生成 playlist.m3u
-.github/workflows/update.yml  定时任务：每 3 小时刷新一次
-```
+# check the news playlist is healthy before installing it
+python3 scripts/verify_news.py
 
-## 工作原理
+# install the public provider set
+python3 scripts/add_providers.py
 
-### 发现机制
+# then verify the channels Hypnotix actually loads
+python3 scripts/verify_news.py
 
-对每个 YouTube 频道，请求
-
-```
-https://www.youtube.com/channel/<频道ID>/live
-```
-
-拿当前正在直播的视频 ID。**注意**：这个 `/live` 端点只能用来**发现**，不能用来**播放**。生成的播放列表统一写成
-
-```
-https://www.youtube.com/watch?v=<ID>
+# add the news playlist as a local provider
+python3 - <<'EOF'
+from gi.repository import Gio
+s = Gio.Settings.new("org.x.hypnotix")
+p = s.get_strv("providers")
+n = "News:::local:::file:///path/to/playlists/news.m3u:::::::::"
+if n not in p:
+    s.set_strv("providers", p + [n])
+EOF
 ```
 
-因为 `watch?v=` 是 Hypnotix 自带的 mpv（libmpv 0.37 + ytdl_hook）能实际解码的形式；`/live` 形式在该引擎下会失败。实测结论，不是推测。
+Always dump dconf before touching it — dconf has no undo:
 
-另外，频道 ID 必须是完整的 24 位。截断的短 ID 会让 `/live` 端点返回错误。
-
-### 失败处理
-
-发现失败时按以下顺序回退，绝不空掉一个频道：
-
-1. `status.json` 里上一次成功解析到的 ID（标记 `stale: true`）
-2. `channels.json` 里手动写死的 `last_live_id`（pin）
-
-脚本永远以 0 退出，失败只记进 `status.json`，不会让 Actions 的 job 变红。
-
-## 添加频道
-
-编辑 `channels.json`。
-
-YouTube 频道（自动刷新直播 ID）：
-
-```json
-{ "name": "频道名", "group": "分组名", "kind": "youtube",
-  "channel_id": "UC开头24位完整ID" }
+```bash
+dconf dump /org/x/hypnotix/ > /tmp/hypnotix_backup_$(date +%Y%m%d_%H%M%S).txt
 ```
 
-固定 HLS 地址（不参与刷新）：
+The mpv scripts write their logs into a scratch dir, defaulting to `/tmp/opencode`:
 
-```json
-{ "name": "频道名", "group": "分组名", "kind": "hls",
-  "url": "https://.../index.m3u8" }
+```bash
+mkdir -p /tmp/opencode
 ```
 
-`optional` 数组里的频道会被写成注释行，Hypnotix 会跳过它们。这里放的是「地址可达但本机代理拦截了分片」的国际台——如果你的网络没有那个代理，把它们的行首 `#` 去掉就能播。
+`scripts/verify_news.py` resolves `playlists/news.m3u` relative to the checkout,
+or takes `NEWS_M3U=/path/to/file.m3u` to point somewhere else.
 
-### 怎么找频道 ID
+## Things that actually matter on this box
 
-```
-yt-dlp --flat-playlist -J "ytsearch5:频道名 直播"
-```
+**Use `watch?v=` for YouTube live, not `/live`.** Hypnotix ships `mpv 0.37` with
+`ytdl_hook`, which resolves `https://www.youtube.com/watch?v=<id>` fine but fails
+on the `https://www.youtube.com/channel/<ID>/live` form. Channel `/live` URLs are
+useful for *discovering* the current live video ID, useless for *playing* it.
 
-取结果里 `channel_id` 字段，必须是 24 位完整值。
+**"HTTP 200" is not "plays".** A lot of news HLS CDNs answer the master playlist
+but this box's local HTTP proxy (`127.0.0.1:3067`) cuts the `.ts` segment
+fetches, so mpv stalls. `scripts/classify.py` runs every stream both through the
+proxy and with it unset so you can tell real breakage from local-environment
+breakage. Channels in that state are left commented out in `news.m3u`.
 
-## 手动运行
+**`mpv 0.37` exposes only legacy property names.** Use hyphenated
+`m._get_property("video-format")` / `"time-pos"` — the camelCase shortcuts raise.
+`audio-format` reports `"no"` on this build even when audio plays fine; confirm
+with `audio-params` and the log line `AAC 2ch 48000Hz` instead.
 
-```
-python3 scripts/update_playlist.py
-```
+**Hypnotix provider format is positional.** `name:::type:::url:::user:::pass:::epg`
+— six fields, empty ones still need their `:`. `type` is `url` or `local`; for
+`local` the `url` field is a `file://` path and Hypnotix strips the prefix.
 
-需要先装 yt-dlp。环境变量可调：
+## Not included
 
-| 变量 | 默认 | 含义 |
-|---|---|---|
-| `YTDLP_BIN` | `yt-dlp` | 可执行文件路径 |
-| `YTDLP_TIMEOUT` | `45` | 单次请求超时（秒） |
-| `YTDLP_RETRIES` | `2` | 失败重试次数 |
-
-## 频率为什么是 3 小时
-
-不是猜的。采集当天观察到：华视、民视、寰宇、台视、中视 5 个频道的直播 ID 数小时内变更，台視在一个半小时里换了两个 ID。设得更慢就会出现死链；再快会频繁触发 GitHub 的 API 配额。3 小时是当前观测下的折中。
-
-## 已知限制
-
-- 只对 YouTube 频道自动刷新；`hls` 类型的固定地址不做健康检查
-- GitHub Actions 的 cron 最慢约 1 分钟精度，且免费额度下可能延迟执行，所以实际刷新间隔会有浮动
-- 播放列表只保证「URL 当前指向正在直播的视频」，不保证该流在**你的网络**下能拉通分片
+Nothing here contains credentials, tokens or secrets. Stream URLs are public
+broadcast endpoints.
