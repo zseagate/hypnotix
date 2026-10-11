@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "name": "hypnotix-news",
+    "description": "Hypnotix 新闻频道播放列表，由 GitHub Actions 自动刷新 YouTube 直播 ID",
+    "output": "playlist.m3u",
+    "refresh": "every 3 hours via .github/workflows/update.yml"
+  },
+  "channels": [
+    { "name": "中天新聞 CTI News",      "group": "新聞-中文", "kind": "youtube", "channel_id": "UCpu3bemTQwAU8PqM4kJdoEQ" },
+    { "name": "東森新聞 EBC News",      "group": "新聞-中文", "kind": "youtube", "channel_id": "UCR3asjvr_WAaxwJYEDV_Bfw" },
+    { "name": "東森財經新聞",            "group": "新聞-中文", "kind": "youtube", "channel_id": "UCuzqko_GKcj9922M1gUo__w" },
+    { "name": "TVBS 新聞",              "group": "新聞-中文", "kind": "youtube", "channel_id": "UC5nwNW4KdC0SzrhF9BXEYOQ", "last_live_id": "m_dhMSvUCIc" },
+    { "name": "華視新聞 CTS",           "group": "新聞-中文", "kind": "youtube", "channel_id": "UCDCJyLpbfgeVE9iZiEam-Kg" },
+    { "name": "民視新聞 FTV",           "group": "新聞-中文", "kind": "youtube", "channel_id": "UC2VmWn8dAqkzlQqvy02E1PA" },
+    { "name": "公視新聞 PTS",           "group": "新聞-中文", "kind": "youtube", "channel_id": "UCexpzYDEnfmAvPSfG4xbcjA" },
+    { "name": "寰宇新聞 SET",           "group": "新聞-中文", "kind": "youtube", "channel_id": "UCp2f7tGJGN6R9Muxipem8Nw" },
+    { "name": "寰宇財經",                "group": "新聞-中文", "kind": "youtube", "channel_id": "UCSZwcE1d1SAGyc1yvQGSOjQ" },
+    { "name": "台視新聞 TTV",           "group": "新聞-中文", "kind": "youtube", "channel_id": "UC5fkmrA5VDTr2IU7lPmpsHA" },
+    { "name": "中視新聞 CTV",           "group": "新聞-中文", "kind": "youtube", "channel_id": "UCmH4q-YjeazayYCVHHkGAMA" },
+    { "name": "非凡財經 USTV",          "group": "新聞-中文", "kind": "youtube", "channel_id": "UCYIVkruUoN04UjV9pkBTswg" },
+
+    { "name": "CNN International",      "group": "新聞-英文", "kind": "hls", "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8" },
+    { "name": "BBC News",               "group": "新聞-英文", "kind": "hls", "url": "https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8" }
+  ],
+  "optional": [
+    { "name": "Al Jazeera English",     "group": "新聞-英文", "kind": "hls", "url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8" },
+    { "name": "DW English",             "group": "新聞-英文", "kind": "hls", "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8" },
+    { "name": "CGTN",                   "group": "新聞-中文", "kind": "hls", "url": "https://news.cgtn.com/resource/live/english/cgtn-news.m3u8" },
+    { "name": "Reuters",                "group": "新聞-英文", "kind": "hls", "url": "https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8" },
+    { "name": "CBS News",               "group": "新聞-英文", "kind": "hls", "url": "https://dai.google.com/linear/hls/event/Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8" },
+    { "name": "ABC News Live",          "group": "新聞-英文", "kind": "hls", "url": "https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8" },
+    { "name": "LiveNOW from FOX",       "group": "新聞-英文", "kind": "hls", "url": "https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8" },
+    { "name": "India Today",            "group": "新聞-英文", "kind": "hls", "url": "https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8" },
+    { "name": "Scripps News",           "group": "新聞-英文", "kind": "hls", "url": "https://content.uplynk.com/channel/4bb4901b934c4e029fd4c1abfc766c37.m3u8" },
+    { "name": "USA Today",              "group": "新聞-英文", "kind": "hls", "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00731-gannettcoinc-usatoday/playlist.m3u8" },
+    { "name": "Russia Today",           "group": "新聞-英文", "kind": "hls", "url": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8" },
+    { "name": "SABC News",              "group": "新聞-英文", "kind": "hls", "url": "https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/playlist.m3u8" }
+  ]
+}
