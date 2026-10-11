@@ -28,8 +28,6 @@ scripts/
   diag.py  mpvopt.py        mpv log dump / option-sensitivity probes
   init_test.py              Can libmpv even init under Hypnotix's flag set?
   zbdstest.py               Single-stream probe with per-tick property logging
-backups/
-  hypnotix/                 dconf dumps of org.x.hypnotix taken before changes
 ```
 
 ## Quick start
@@ -61,8 +59,7 @@ EOF
 Always dump dconf before touching it — dconf has no undo:
 
 ```bash
-mkdir -p backups/hypnotix
-dconf dump /org/x/hypnotix/ > backups/hypnotix/hypnotix_backup_$(date +%Y%m%d_%H%M%S).txt
+dconf dump /org/x/hypnotix/ > /tmp/hypnotix_backup_$(date +%Y%m%d_%H%M%S).txt
 ```
 
 The mpv scripts write their logs into a scratch dir, defaulting to `/tmp/opencode`:

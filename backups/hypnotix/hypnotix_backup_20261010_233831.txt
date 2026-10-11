@@ -1,4 +1,0 @@
-[/]
-active-provider='zbds'
-providers=['Free-TV:::url:::https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8:::::::::', 'china:::local:::file:///home/mac/Downloads/playlist_china.m3u8:::::::::', 'zbds:::url:::https://live.zbds.top/tv/iptv4.m3u:::::::::']
-use-local-ytdlp=true
