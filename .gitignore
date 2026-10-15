@@ -4,5 +4,6 @@ __pycache__/
 *.bin
 *.tsv
 *.m3u8
+*.fast.m3u
 .env
 *.keyring

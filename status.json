@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T09:24:42Z",
+  "updated_at": "2026-10-15T05:55:05Z",
   "total": 14,
   "resolved": 14,
   "failed": 0,
@@ -8,73 +8,85 @@
       "name": "中天新聞 CTI News",
       "channel_id": "UCpu3bemTQwAU8PqM4kJdoEQ",
       "live_id": "TbHD4L6x1NA",
-      "title": "【🔴LIVE直播中】韓國瑜自嘲又開始被抹黑｜沈扯死貓戰術 蔣政績回嗆｜高雄市長辯論賴柯點頭｜中天、民視、公視合辦｜簡至豪報新聞 20261011 @中天新聞CtiNews 2026-10-11 17:22"
+      "stale": true,
+      "source": "last run"
     },
     {
       "name": "東森新聞 EBC News",
       "channel_id": "UCR3asjvr_WAaxwJYEDV_Bfw",
       "live_id": "V1p33hqPrUk",
-      "title": "🔴東森新聞 51 頻道 24 小時直播｜Taiwan EBC 24h live news｜台湾 EBC ニュース24 時間オンライン放送｜대만 뉴스 생방송 2026-10-11 17:23"
+      "stale": true,
+      "source": "last run"
     },
     {
       "name": "東森財經新聞",
       "channel_id": "UCuzqko_GKcj9922M1gUo__w",
       "live_id": "1I2iq41Akmo",
-      "title": "EBC 東森財經新聞24小時線上直播｜Taiwan EBC Financial News｜台湾 EBC 金融ニュース｜대만 뉴스 생방송 2026-10-11 17:23"
+      "stale": true,
+      "source": "last run"
     },
     {
       "name": "TVBS 新聞",
       "channel_id": "UC5nwNW4KdC0SzrhF9BXEYOQ",
       "live_id": "gpqMDYTxJJE",
-      "title": "台北大洋流首航  沈伯洋大同區車掃｜LIVE 2026-10-11 17:23"
+      "stale": true,
+      "source": "last run"
     },
     {
       "name": "華視新聞 CTS",
       "channel_id": "UCDCJyLpbfgeVE9iZiEam-Kg",
       "live_id": "KMMHw8rllic",
-      "title": "地震即時警報與監測直播｜降雨即時資訊｜華視公眾安全資訊觀測站 2026-10-11 17:23"
+      "stale": true,
+      "source": "last run"
     },
     {
       "name": "民視新聞 FTV",
       "channel_id": "UC2VmWn8dAqkzlQqvy02E1PA",
       "live_id": "EoJmPt88H_c",
-      "title": "【直播完整版】1011 台北大洋流號啟航！沈伯洋首場車掃中山大同出發｜民視快新聞｜ 2026-10-11 17:23"
+      "stale": true,
+      "source": "last run"
     },
     {
       "name": "公視新聞 PTS",
       "channel_id": "UCexpzYDEnfmAvPSfG4xbcjA",
       "live_id": "quwqlazU-c8",
-      "title": "公視新聞 PTS News  24小時線上直播 ｜PNN Taiwan News 24h Live｜台湾の最新ニュース24時間配信中｜대만 뉴스 라이브 스트리밍 #live #news 2026-10-11 17:23"
+      "stale": true,
+      "source": "last run"
     },
     {
       "name": "寰宇新聞 SET",
       "channel_id": "UCp2f7tGJGN6R9Muxipem8Nw",
-      "live_id": "a1YWMrmwXQs",
-      "title": "美轟炸機突撤離英國基地 川普:威脅和伊朗有關｜俄狂攻基輔多座橋梁 美國提10月底前辦三方會談   寰宇新聞台Global News TV ｜GlobalNewsTV 24h live news 2026-10-11 17:24"
+      "live_id": "7YF8fh4zUlA",
+      "stale": true,
+      "source": "last run"
     },
     {
       "name": "寰宇財經",
       "channel_id": "UCSZwcE1d1SAGyc1yvQGSOjQ",
       "live_id": "yAUQQ0DhPxI",
-      "title": "寰宇新聞財經台 24小時線上直播｜GlobalNewsTV 24h live news｜ 台湾のニュース24時間ライブ配信中 ｜대만 뉴스 생방송 2026-10-11 17:24"
+      "stale": true,
+      "source": "last run"
     },
     {
       "name": "台視新聞 TTV",
       "channel_id": "UC5fkmrA5VDTr2IU7lPmpsHA",
       "live_id": "qiJcoQIWP5Q",
-      "title": "台北大洋流首航  沈伯洋大同區車掃｜LIVE 2026-10-11 17:24"
+      "stale": true,
+      "source": "last run"
     },
     {
       "name": "中視新聞 CTV",
       "channel_id": "UCmH4q-YjeazayYCVHHkGAMA",
       "live_id": "TCnaIE_SAtM",
-      "title": "中視新聞LIVE直播頻道24小時線上直播｜Taiwan CTV news HD 24h live news |台湾のCTV ニュースHD 대만 24시간 뉴스채널  | (生放送) 2026-10-11 17:24"
+      "stale": true,
+      "source": "last run"
     },
     {
       "name": "非凡財經 USTV",
       "channel_id": "UCYIVkruUoN04UjV9pkBTswg",
       "live_id": "eA6Aczd3FZM",
-      "title": "【@投資看非凡 】 非凡財經節目新聞24小時直播｜台股盤中即時分析｜股市現場｜全球財經世界報導 @ustvbiz 2026-10-11 17:24"
+      "stale": true,
+      "source": "last run"
     },
     {
       "name": "CNN International",

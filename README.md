@@ -17,6 +17,7 @@ scripts/
   add_providers.py          Writes verified providers into org.x.hypnotix.providers
   verify_providers.py       Tests candidate providers with Hypnotix's own Manager code
   verify_news.py            Verifies configured providers + any passed in as args
+  import_local.py           一键本地秒级导入(推荐): local/file:// 无需下载, --strip-logos 去台标极速模式
   classify.py               Per-stream libmpv decode test, proxy vs direct comparison
   mpv_all.py                Authoritative playback matrix (news + YouTube live + baselines)
   playback_test.py          libmpv probe, requires both video and audio format + time advancing
@@ -41,6 +42,17 @@ python3 scripts/verify_news.py
 
 # install the public provider set
 python3 scripts/add_providers.py
+
+# 本地快速导入(推荐, 秒级): 用 file:// local 类型，不走网络下载
+python3 scripts/import_local.py --list   # 查看预设
+python3 scripts/import_local.py          # 默认导入 News/News-Auto/CN/HK/TW
+python3 scripts/import_local.py --all --strip-logos  # 全部+去台标极速版(2000+台也不卡)
+
+# 定期更新: 先从上游刷新选中的 m3u 再导入, 并装上 crontab 每 6 小时自动重复
+python3 scripts/import_local.py --update --install-cron
+# --update 单独用 = 手动刷新一次; --interval-hours 12 改周期;
+# --skip-news 跳过 yt-dlp 再生 News-Auto; --uninstall-cron 卸载定时任务
+# 日志: 仓库根目录 update.log (超 512KB 自动截尾)
 
 # then verify the channels Hypnotix actually loads
 python3 scripts/verify_news.py
