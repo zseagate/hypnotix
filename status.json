@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T21:03:03Z",
+  "updated_at": "2026-10-16T03:37:14Z",
   "total": 14,
   "resolved": 14,
   "failed": 0,
@@ -22,8 +22,7 @@
       "name": "東森財經新聞",
       "channel_id": "UCuzqko_GKcj9922M1gUo__w",
       "live_id": "1I2iq41Akmo",
-      "stale": true,
-      "source": "last run"
+      "title": "EBC 東森財經新聞24小時線上直播｜Taiwan EBC Financial News｜台湾 EBC 金融ニュース｜대만 뉴스 생방송 2026-10-16 03:36"
     },
     {
       "name": "TVBS 新聞",
