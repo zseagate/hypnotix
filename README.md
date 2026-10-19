@@ -1,5 +1,7 @@
 # hypnotix
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 Setup notes, a curated news playlist, and tooling for getting
 [Hypnotix](https://hypnotix.org) TV working on a Mac Mini running Ubuntu
 (Cinnamon).
@@ -13,6 +15,8 @@ just "returns HTTP 200".
 ```
 playlists/
   news.m3u                  Curated news playlist, every channel playback-verified
+sync.sh                     One-shot local sync: pull repo snapshot, refresh upstream
+                            lists, import into Hypnotix (systemd user timer friendly)
 scripts/
   add_providers.py          Writes verified providers into org.x.hypnotix.providers
   verify_providers.py       Tests candidate providers with Hypnotix's own Manager code
