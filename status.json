@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T00:39:45Z",
+  "updated_at": "2026-10-29T09:33:04Z",
   "total": 14,
   "resolved": 14,
   "failed": 0,
@@ -50,7 +50,8 @@
       "name": "公視新聞 PTS",
       "channel_id": "UCexpzYDEnfmAvPSfG4xbcjA",
       "live_id": "hg4nYb3jE9A",
-      "title": "公視新聞 PTS News  24小時線上直播 ｜PNN Taiwan News 24h Live｜台湾の最新ニュース24時間配信中｜대만 뉴스 라이브 스트리밍 #live #news 2026-10-29 00:39"
+      "stale": true,
+      "source": "last run"
     },
     {
       "name": "寰宇新聞 SET",
