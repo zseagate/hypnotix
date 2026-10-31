@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T11:51:21Z",
+  "updated_at": "2026-10-31T16:58:33Z",
   "total": 14,
   "resolved": 14,
   "failed": 0,
@@ -42,9 +42,8 @@
     {
       "name": "民視新聞 FTV",
       "channel_id": "UC2VmWn8dAqkzlQqvy02E1PA",
-      "live_id": "EoJmPt88H_c",
-      "stale": true,
-      "source": "last run"
+      "live_id": "ylYJSBUgaMA",
+      "title": "🟢LIVE 民視新聞24小時直播  FTV 新聞直播｜Taiwan News Live｜台湾ニュース Live｜대만 뉴스 방송 Live @FTV_News 2026-10-31 16:58"
     },
     {
       "name": "公視新聞 PTS",
