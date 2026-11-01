@@ -94,6 +94,20 @@ or takes `NEWS_M3U=/path/to/file.m3u` to point somewhere else.
 on the `https://www.youtube.com/channel/<ID>/live` form. Channel `/live` URLs are
 useful for *discovering* the current live video ID, useless for *playing* it.
 
+**"HTTP 200" is not "live" either.** A dead channel can keep serving a frozen
+slate forever: CNN's old `cnn_slate` endpoint returned `#EXT-X-ENDLIST`, a
+`MEDIA-SEQUENCE` that never advanced, and a `PROGRAM-DATE-TIME` from 2026-07-20.
+`scripts/update_playlist.py` now fetches every HLS entry, follows one variant of
+a master playlist, and marks it `dead` in `status.json` when the playlist has
+`EXT-X-ENDLIST` or its live edge is more than an hour behind. Long DVR windows
+(BBC keeps two hours) are fine: libmpv still starts at the live edge.
+
+**YouTube resolves live ids without yt-dlp when it has to.** GitHub Actions
+runners get "Sign in to confirm you're not a bot" from yt-dlp, which left every
+channel on its cached id for weeks. `resolve_live()` therefore falls back to
+scraping `/channel/<id>/live` + the watch page and matching the oEmbed author
+against the channel handle; cached ids are re-checked before reuse.
+
 **"HTTP 200" is not "plays".** A lot of news HLS CDNs answer the master playlist
 but this box's local HTTP proxy (`127.0.0.1:3067`) cuts the `.ts` segment
 fetches, so mpv stalls. `scripts/classify.py` runs every stream both through the

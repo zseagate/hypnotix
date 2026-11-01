@@ -6,20 +6,20 @@
     "refresh": "every 3 hours via .github/workflows/update.yml"
   },
   "channels": [
-    { "name": "中天新聞 CTI News",      "group": "新聞-中文", "kind": "youtube", "channel_id": "UCpu3bemTQwAU8PqM4kJdoEQ" },
+    { "name": "中天新聞 CTI News",      "group": "新聞-中文", "kind": "youtube", "channel_id": "UCpu3bemTQwAU8PqM4kJdoEQ", "last_live_id": "vr3XyVCR4T0" },
     { "name": "東森新聞 EBC News",      "group": "新聞-中文", "kind": "youtube", "channel_id": "UCR3asjvr_WAaxwJYEDV_Bfw" },
     { "name": "東森財經新聞",            "group": "新聞-中文", "kind": "youtube", "channel_id": "UCuzqko_GKcj9922M1gUo__w" },
     { "name": "TVBS 新聞",              "group": "新聞-中文", "kind": "youtube", "channel_id": "UC5nwNW4KdC0SzrhF9BXEYOQ", "last_live_id": "m_dhMSvUCIc" },
     { "name": "華視新聞 CTS",           "group": "新聞-中文", "kind": "youtube", "channel_id": "UCDCJyLpbfgeVE9iZiEam-Kg" },
     { "name": "民視新聞 FTV",           "group": "新聞-中文", "kind": "youtube", "channel_id": "UC2VmWn8dAqkzlQqvy02E1PA" },
     { "name": "公視新聞 PTS",           "group": "新聞-中文", "kind": "youtube", "channel_id": "UCexpzYDEnfmAvPSfG4xbcjA" },
-    { "name": "寰宇新聞 SET",           "group": "新聞-中文", "kind": "youtube", "channel_id": "UCp2f7tGJGN6R9Muxipem8Nw" },
+    { "name": "寰宇新聞 SET",           "group": "新聞-中文", "kind": "youtube", "channel_id": "UCp2f7tGJGN6R9Muxipem8Nw", "last_live_id": "6IquAgfvYmc" },
     { "name": "寰宇財經",                "group": "新聞-中文", "kind": "youtube", "channel_id": "UCSZwcE1d1SAGyc1yvQGSOjQ" },
-    { "name": "台視新聞 TTV",           "group": "新聞-中文", "kind": "youtube", "channel_id": "UC5fkmrA5VDTr2IU7lPmpsHA" },
+    { "name": "台視新聞 TTV",           "group": "新聞-中文", "kind": "youtube", "channel_id": "UC8ROUUjHzEQm-ndb69CX8Ww", "last_live_id": "9iRAqBMakXY" },
     { "name": "中視新聞 CTV",           "group": "新聞-中文", "kind": "youtube", "channel_id": "UCmH4q-YjeazayYCVHHkGAMA" },
     { "name": "非凡財經 USTV",          "group": "新聞-中文", "kind": "youtube", "channel_id": "UCYIVkruUoN04UjV9pkBTswg" },
 
-    { "name": "CNN International",      "group": "新聞-英文", "kind": "hls", "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8" },
+    { "name": "CNN International",      "group": "新聞-英文", "kind": "hls", "url": "https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8" },
     { "name": "BBC News",               "group": "新聞-英文", "kind": "hls", "url": "https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8" }
   ],
   "optional": [

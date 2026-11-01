@@ -9,7 +9,7 @@ sys.path.insert(0, "/usr/lib/hypnotix")
 import mpv
 
 PLAYLIST = [
-    ("CNN International",    "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8"),
+    ("CNN International",    "https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8"),
     ("BBC News",             "https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8"),
     ("Al Jazeera English",   "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8"),
     ("DW English",           "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8"),

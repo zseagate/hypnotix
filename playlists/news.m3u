@@ -21,7 +21,7 @@ https://www.youtube.com/watch?v=wM0g8EoUZ_E
 #EXTINF:-1 tvg-name="民視新聞 FTV News" group-title="新聞-中文",民視新聞 FTV News
 https://www.youtube.com/watch?v=ylYJSBUgaMA
 #EXTINF:-1 tvg-name="公視新聞 PTS News" group-title="新聞-中文",公視新聞 PTS News
-https://www.youtube.com/watch?v=quwqlazU-c8
+https://www.youtube.com/watch?v=hg4nYb3jE9A
 #EXTINF:-1 tvg-name="寰宇新聞 SET News" group-title="新聞-中文",寰宇新聞 SET News
 https://www.youtube.com/watch?v=6IquAgfvYmc
 #EXTINF:-1 tvg-name="寰宇財經 SET Finance" group-title="新聞-中文",寰宇財經 SET Finance
@@ -35,7 +35,7 @@ https://www.youtube.com/watch?v=eA6Aczd3FZM
 
 # ---------------- International news ----------------
 #EXTINF:-1 tvg-name="CNN International" group-title="新聞-英文",CNN International
-https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8
 #EXTINF:-1 tvg-name="BBC News" group-title="新聞-英文",BBC News
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 
