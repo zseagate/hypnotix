@@ -25,15 +25,15 @@
   "optional": [
     { "name": "Al Jazeera English",     "group": "新聞-英文", "kind": "hls", "url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8" },
     { "name": "DW English",             "group": "新聞-英文", "kind": "hls", "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8" },
-    { "name": "CGTN",                   "group": "新聞-中文", "kind": "hls", "url": "https://news.cgtn.com/resource/live/english/cgtn-news.m3u8" },
+    { "name": "CGTN",                   "group": "新聞-中文", "kind": "hls", "url": "https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8" },
     { "name": "Reuters",                "group": "新聞-英文", "kind": "hls", "url": "https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8" },
     { "name": "CBS News",               "group": "新聞-英文", "kind": "hls", "url": "https://dai.google.com/linear/hls/event/Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8" },
-    { "name": "ABC News Live",          "group": "新聞-英文", "kind": "hls", "url": "https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8" },
+    { "name": "ABC News Live",          "group": "新聞-英文", "kind": "hls", "url": "https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8" },
     { "name": "LiveNOW from FOX",       "group": "新聞-英文", "kind": "hls", "url": "https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8" },
     { "name": "India Today",            "group": "新聞-英文", "kind": "hls", "url": "https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8" },
     { "name": "Scripps News",           "group": "新聞-英文", "kind": "hls", "url": "https://content.uplynk.com/channel/4bb4901b934c4e029fd4c1abfc766c37.m3u8" },
-    { "name": "USA Today",              "group": "新聞-英文", "kind": "hls", "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00731-gannettcoinc-usatoday/playlist.m3u8" },
+    { "name": "USA Today",              "group": "新聞-英文", "kind": "hls", "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00731-gannettcoinc-usatodaynews-plex/playlist.m3u8" },
     { "name": "Russia Today",           "group": "新聞-英文", "kind": "hls", "url": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8" },
-    { "name": "SABC News",              "group": "新聞-英文", "kind": "hls", "url": "https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/playlist.m3u8" }
+    { "name": "SABC News",              "group": "新聞-英文", "kind": "hls", "url": "https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/master.m3u8" }
   ]
 }

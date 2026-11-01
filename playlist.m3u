@@ -38,13 +38,13 @@ https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_ch
 #EXTINF:-1 tvg-name="DW English" group-title="新聞-英文",DW English
 #https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 tvg-name="CGTN" group-title="新聞-中文",CGTN
-#https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
+#https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
 #EXTINF:-1 tvg-name="Reuters" group-title="新聞-英文",Reuters
 #https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8
 #EXTINF:-1 tvg-name="CBS News" group-title="新聞-英文",CBS News
 #https://dai.google.com/linear/hls/event/Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8
 #EXTINF:-1 tvg-name="ABC News Live" group-title="新聞-英文",ABC News Live
-#https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8
+#https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
 #EXTINF:-1 tvg-name="LiveNOW from FOX" group-title="新聞-英文",LiveNOW from FOX
 #https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="India Today" group-title="新聞-英文",India Today
@@ -52,8 +52,8 @@ https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_ch
 #EXTINF:-1 tvg-name="Scripps News" group-title="新聞-英文",Scripps News
 #https://content.uplynk.com/channel/4bb4901b934c4e029fd4c1abfc766c37.m3u8
 #EXTINF:-1 tvg-name="USA Today" group-title="新聞-英文",USA Today
-#https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00731-gannettcoinc-usatoday/playlist.m3u8
+#https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00731-gannettcoinc-usatodaynews-plex/playlist.m3u8
 #EXTINF:-1 tvg-name="Russia Today" group-title="新聞-英文",Russia Today
 #https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 #EXTINF:-1 tvg-name="SABC News" group-title="新聞-英文",SABC News
-#https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/playlist.m3u8
+#https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/master.m3u8
