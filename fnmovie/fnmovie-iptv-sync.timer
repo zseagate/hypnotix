@@ -1,0 +1,11 @@
+[Unit]
+Description=Daily fnMovie IPTV playlist sync
+
+[Timer]
+OnCalendar=*-*-* 04:17:00
+RandomizedDelaySec=600
+Persistent=true
+Unit=fnmovie-iptv-sync.service
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,13 @@
+[Unit]
+Description=fnMovie IPTV fake public IP on loopback
+After=network.target
+Before=fnmovie-iptv-web.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/sbin/ip addr replace 1.1.1.246/32 dev lo
+ExecStop=/sbin/ip addr del 1.1.1.246/32 dev lo
+
+[Install]
+WantedBy=multi-user.target

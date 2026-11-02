@@ -1,0 +1,18 @@
+[Unit]
+Description=fnMovie IPTV HTTP server (playlists + CNN HLS flatten/proxy)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /opt/fnmovie-iptv/bin/fnmovie_iptv_web.py
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+ReadOnlyPaths=/opt/fnmovie-iptv/srv
+
+[Install]
+WantedBy=multi-user.target

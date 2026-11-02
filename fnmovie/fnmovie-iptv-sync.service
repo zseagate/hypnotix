@@ -1,0 +1,11 @@
+[Unit]
+Description=Sync fnMovie IPTV (春晚+电影) from github.com/zseagate/hypnotix
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/opt/fnmovie-iptv/bin/sync_run.sh
+TimeoutStartSec=2400
+StandardOutput=append:/opt/fnmovie-iptv/logs/sync.log
+StandardError=append:/opt/fnmovie-iptv/logs/sync.log
