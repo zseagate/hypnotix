@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T05:46:02Z",
+  "updated_at": "2026-11-03T13:48:57Z",
   "total": 14,
   "resolved": 14,
   "failed": 0,
@@ -8,7 +8,9 @@
       "name": "中天新聞 CTI News",
       "channel_id": "UCpu3bemTQwAU8PqM4kJdoEQ",
       "live_id": "2kixdROGML0",
-      "title": "【🔴LIVE直播中】何欣純民調領先江啟臣？沈伯洋親曝洋流大隱憂！蔣萬安台北高雄合體策略曝！川普竟坦言美國期中選舉難贏？｜劉又嘉/洪淑芬 報新聞 20261103 @中天新聞CtiNews"
+      "stale": true,
+      "source": "last run",
+      "dead": true
     },
     {
       "name": "東森新聞 EBC News",
@@ -26,7 +28,7 @@
       "name": "TVBS 新聞",
       "channel_id": "UC5nwNW4KdC0SzrhF9BXEYOQ",
       "live_id": "m_dhMSvUCIc",
-      "title": "🔴LIVE：TVBS NEWS網路獨家新聞24小時直播 Taiwan News 24hr 台湾世界中のニュースを24時間配信中 대만24시간뉴스채널 55台"
+      "title": "🔴LIVE：【美國期中選舉】TVBS NEWS網路獨家新聞24小時直播 Taiwan News 24hr 台湾世界中のニュースを24時間配信中 대만24시간뉴스채널 55台"
     },
     {
       "name": "華視新聞 CTS",
