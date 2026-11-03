@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T13:48:57Z",
+  "updated_at": "2026-11-03T20:50:21Z",
   "total": 14,
   "resolved": 14,
   "failed": 0,
@@ -28,7 +28,8 @@
       "name": "TVBS 新聞",
       "channel_id": "UC5nwNW4KdC0SzrhF9BXEYOQ",
       "live_id": "m_dhMSvUCIc",
-      "title": "🔴LIVE：【美國期中選舉】TVBS NEWS網路獨家新聞24小時直播 Taiwan News 24hr 台湾世界中のニュースを24時間配信中 대만24시간뉴스채널 55台"
+      "stale": true,
+      "source": "last run"
     },
     {
       "name": "華視新聞 CTS",
