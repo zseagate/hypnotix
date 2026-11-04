@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T20:50:21Z",
+  "updated_at": "2026-11-04T01:06:16Z",
   "total": 14,
   "resolved": 14,
   "failed": 0,
@@ -7,10 +7,8 @@
     {
       "name": "中天新聞 CTI News",
       "channel_id": "UCpu3bemTQwAU8PqM4kJdoEQ",
-      "live_id": "2kixdROGML0",
-      "stale": true,
-      "source": "last run",
-      "dead": true
+      "live_id": "PrwraF-PlXs",
+      "title": "【🔴LIVE直播中】郭正亮精算台北盤面蔣萬安穩了?藍營串聯陸軍大動員反攻洋流  綠營大動作打蔣反曝沈伯洋有危機?士氣賠半?藍委:這題打到死穴｜黃韵筑 劉又嘉報新聞 20261104@中天電視CtiTv"
     },
     {
       "name": "東森新聞 EBC News",
@@ -21,15 +19,14 @@
     {
       "name": "東森財經新聞",
       "channel_id": "UCuzqko_GKcj9922M1gUo__w",
-      "live_id": "1I2iq41Akmo",
-      "title": "EBC 東森財經新聞24小時線上直播｜Taiwan EBC Financial News｜台湾 EBC 金融ニュース｜대만 뉴스 생방송"
+      "live_id": "AEBeWMM1atA",
+      "title": "【看盤不中斷】EBC東森財經股市24小時直播｜Taiwan EBC Financial News 24hr Live｜台湾 EBC 金融ニュース24 時間オンライン放送｜대만 뉴스 생방송"
     },
     {
       "name": "TVBS 新聞",
       "channel_id": "UC5nwNW4KdC0SzrhF9BXEYOQ",
-      "live_id": "m_dhMSvUCIc",
-      "stale": true,
-      "source": "last run"
+      "live_id": "Mu1PQdG9_94",
+      "title": "🔴川普將成跛腳總統？通膨、戰爭重擊民生 美國國會恐變天！牽動台灣局勢全球變局｜2026美國期中選舉特別報導｜LIVE"
     },
     {
       "name": "華視新聞 CTS",
@@ -64,8 +61,8 @@
     {
       "name": "台視新聞 TTV",
       "channel_id": "UC8ROUUjHzEQm-ndb69CX8Ww",
-      "live_id": "9iRAqBMakXY",
-      "title": "台視新聞台HD 24 小時線上直播｜TAIWAN TTV NEWS HD (Live)｜台湾のTTV ニュースHD (生放送)｜대만 뉴스 라이브"
+      "live_id": "aoTV92Z-MVU",
+      "title": "【完整公開】LIVE 顧立雄赴立院 國防委員會備詢"
     },
     {
       "name": "中視新聞 CTV",
