@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T10:38:28Z",
+  "updated_at": "2026-11-04T19:30:12Z",
   "total": 14,
   "resolved": 14,
   "failed": 0,
@@ -8,7 +8,9 @@
       "name": "中天新聞 CTI News",
       "channel_id": "UCpu3bemTQwAU8PqM4kJdoEQ",
       "live_id": "Jyh_yQyAADM",
-      "title": "【🔴LIVE直播中】#黃介正#謝寒冰#栗正傑!川普慘遭懲罰 難擋藍色浪潮!搖擺州反 波俄G20互撕!蔣柯破圈洋流 高市奔APEC!|張雅婷辣晚報20261104完整版@中天新聞CtiNews"
+      "stale": true,
+      "source": "last run",
+      "dead": true
     },
     {
       "name": "東森新聞 EBC News",
@@ -26,7 +28,7 @@
       "name": "TVBS 新聞",
       "channel_id": "UC5nwNW4KdC0SzrhF9BXEYOQ",
       "live_id": "m_dhMSvUCIc",
-      "title": "🔴LIVE：【美國期中選舉】TVBS NEWS網路獨家新聞24小時直播 Taiwan News 24hr 台湾世界中のニュースを24時間配信中 대만24시간뉴스채널 55台"
+      "title": "🔴LIVE：TVBS NEWS網路獨家新聞24小時直播 Taiwan News 24hr 台湾世界中のニュースを24時間配信中 대만24시간뉴스채널 55台"
     },
     {
       "name": "華視新聞 CTS",
