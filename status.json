@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T10:29:06Z",
+  "updated_at": "2026-11-05T19:39:59Z",
   "total": 14,
   "resolved": 14,
   "failed": 0,
@@ -8,7 +8,9 @@
       "name": "中天新聞 CTI News",
       "channel_id": "UCpu3bemTQwAU8PqM4kJdoEQ",
       "live_id": "WdB4Mo-0C3w",
-      "title": "【🔴LIVE直播中】#謝寒冰#張延廷#嚴震生!蔣萬安制霸 50.7%橫掃9區!川普一夜敗光 赫格塞斯完蛋!美上膛攻伊朗?高市求華3訊號! | 張雅婷辣晚報20261105完整版@中天新聞CtiNews"
+      "stale": true,
+      "source": "last run",
+      "dead": true
     },
     {
       "name": "東森新聞 EBC News",
@@ -25,8 +27,8 @@
     {
       "name": "TVBS 新聞",
       "channel_id": "UC5nwNW4KdC0SzrhF9BXEYOQ",
-      "live_id": "rwfNBJohK3M",
-      "title": "🔴11/05【LIVE】TVBS NEWS晚間整點新聞 重點直播 Taiwan News  20261105"
+      "live_id": "m_dhMSvUCIc",
+      "title": "🔴LIVE：TVBS NEWS網路獨家新聞24小時直播 Taiwan News 24hr 台湾世界中のニュースを24時間配信中 대만24시간뉴스채널 55台"
     },
     {
       "name": "華視新聞 CTS",
