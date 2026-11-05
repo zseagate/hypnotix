@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T19:30:12Z",
+  "updated_at": "2026-11-05T01:22:10Z",
   "total": 14,
   "resolved": 14,
   "failed": 0,
@@ -7,10 +7,8 @@
     {
       "name": "中天新聞 CTI News",
       "channel_id": "UCpu3bemTQwAU8PqM4kJdoEQ",
-      "live_id": "Jyh_yQyAADM",
-      "stale": true,
-      "source": "last run",
-      "dead": true
+      "live_id": "OWP8crx2QFM",
+      "title": "【🔴LIVE直播中】逼出藍白對抗態勢 亮哥喊\"沈伯洋當選等於賴當選\"  燃爆!藍推國旗飄帶+安心貼  柯志恩闖台派主場激戰呂捷｜黃韵筑/洪淑芬 報新聞 20261105 @中天新聞CtiNews"
     },
     {
       "name": "東森新聞 EBC News",
@@ -63,8 +61,8 @@
     {
       "name": "台視新聞 TTV",
       "channel_id": "UC8ROUUjHzEQm-ndb69CX8Ww",
-      "live_id": "9iRAqBMakXY",
-      "title": "台視新聞台HD 24 小時線上直播｜TAIWAN TTV NEWS HD (Live)｜台湾のTTV ニュースHD (生放送)｜대만 뉴스 라이브"
+      "live_id": "EdX6k6S3FOQ",
+      "title": "【完整公開】LIVE 賴總統、蘇巧慧 小基隆福成宮參香"
     },
     {
       "name": "中視新聞 CTV",
