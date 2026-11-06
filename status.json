@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T10:30:34Z",
+  "updated_at": "2026-11-06T19:01:40Z",
   "total": 14,
   "resolved": 14,
   "failed": 0,
@@ -8,7 +8,9 @@
       "name": "中天新聞 CTI News",
       "channel_id": "UCpu3bemTQwAU8PqM4kJdoEQ",
       "live_id": "vjH2LhTsk1w",
-      "title": "【🔴LIVE直播中】#郭正亮#黃介正#栗正傑!川普慘敗 美台股崩 郭正亮示警!再打伊朗?美重兵部署.俄警告!法60萬人暴動!烏滅國危機!｜張雅婷辣晚報20261106完整版 @中天新聞CtiNews"
+      "stale": true,
+      "source": "last run",
+      "dead": true
     },
     {
       "name": "東森新聞 EBC News",
@@ -25,8 +27,8 @@
     {
       "name": "TVBS 新聞",
       "channel_id": "UC5nwNW4KdC0SzrhF9BXEYOQ",
-      "live_id": "yK-Qo6BHFW4",
-      "title": "🔴11/06【LIVE】TVBS NEWS晚間整點新聞 重點直播 Taiwan News  20261106"
+      "live_id": "m_dhMSvUCIc",
+      "title": "🔴LIVE：TVBS NEWS網路獨家新聞24小時直播 Taiwan News 24hr 台湾世界中のニュースを24時間配信中 대만24시간뉴스채널 55台"
     },
     {
       "name": "華視新聞 CTS",
@@ -49,8 +51,8 @@
     {
       "name": "寰宇新聞 SET",
       "channel_id": "UCp2f7tGJGN6R9Muxipem8Nw",
-      "live_id": "P3grZ55mRQA",
-      "title": "🔴Live／【倒數21天】蔣萬安拋台北願景！點亮東區「活力再起」"
+      "live_id": "6IquAgfvYmc",
+      "title": "寰宇新聞24小時線上直播｜GlobalNewsTV 24h live news｜ 台湾のニュース24時間ライブ配信中 ｜대만 뉴스 생방송"
     },
     {
       "name": "寰宇財經",
