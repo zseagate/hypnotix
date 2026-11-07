@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T17:35:07Z",
+  "updated_at": "2026-11-07T21:35:08Z",
   "total": 14,
   "resolved": 14,
   "failed": 0,
@@ -9,84 +9,74 @@
       "channel_id": "UCpu3bemTQwAU8PqM4kJdoEQ",
       "live_id": "EcxAG1c-n2w",
       "stale": true,
-      "source": "last run"
+      "source": "last run",
+      "dead": true
     },
     {
       "name": "東森新聞 EBC News",
       "channel_id": "UCR3asjvr_WAaxwJYEDV_Bfw",
       "live_id": "V1p33hqPrUk",
-      "stale": true,
-      "source": "last run"
+      "title": "🔴東森新聞 51 頻道 24 小時直播｜Taiwan EBC 24h live news｜台湾 EBC ニュース24 時間オンライン放送｜대만 뉴스 생방송"
     },
     {
       "name": "東森財經新聞",
       "channel_id": "UCuzqko_GKcj9922M1gUo__w",
       "live_id": "1I2iq41Akmo",
-      "stale": true,
-      "source": "last run"
+      "title": "EBC 東森財經新聞24小時線上直播｜Taiwan EBC Financial News｜台湾 EBC 金融ニュース｜대만 뉴스 생방송"
     },
     {
       "name": "TVBS 新聞",
       "channel_id": "UC5nwNW4KdC0SzrhF9BXEYOQ",
-      "live_id": "LaopCCPKjDU",
-      "stale": true,
-      "source": "last run"
+      "live_id": "m_dhMSvUCIc",
+      "title": "🔴LIVE：TVBS NEWS網路獨家新聞24小時直播 Taiwan News 24hr 台湾世界中のニュースを24時間配信中 대만24시간뉴스채널 55台"
     },
     {
       "name": "華視新聞 CTS",
       "channel_id": "UCDCJyLpbfgeVE9iZiEam-Kg",
       "live_id": "KMMHw8rllic",
-      "stale": true,
-      "source": "last run"
+      "title": "地震即時警報與監測直播｜降雨即時資訊｜華視公眾安全資訊觀測站"
     },
     {
       "name": "民視新聞 FTV",
       "channel_id": "UC2VmWn8dAqkzlQqvy02E1PA",
       "live_id": "ylYJSBUgaMA",
-      "stale": true,
-      "source": "last run"
+      "title": "🟢LIVE 民視新聞24小時直播  FTV 新聞直播｜Taiwan News Live｜台湾ニュース Live｜대만 뉴스 방송 Live @FTV_News"
     },
     {
       "name": "公視新聞 PTS",
       "channel_id": "UCexpzYDEnfmAvPSfG4xbcjA",
       "live_id": "hg4nYb3jE9A",
-      "stale": true,
-      "source": "last run"
+      "title": "公視新聞 PTS News  24小時線上直播 ｜PNN Taiwan News 24h Live｜台湾の最新ニュース24時間配信中｜대만 뉴스 라이브 스트리밍 #live #news"
     },
     {
       "name": "寰宇新聞 SET",
       "channel_id": "UCp2f7tGJGN6R9Muxipem8Nw",
-      "live_id": "8O7mMAzA4W0",
-      "stale": true,
-      "source": "last run"
+      "live_id": "6IquAgfvYmc",
+      "title": "寰宇新聞24小時線上直播｜GlobalNewsTV 24h live news｜ 台湾のニュース24時間ライブ配信中 ｜대만 뉴스 생방송"
     },
     {
       "name": "寰宇財經",
       "channel_id": "UCSZwcE1d1SAGyc1yvQGSOjQ",
       "live_id": "yAUQQ0DhPxI",
-      "stale": true,
-      "source": "last run"
+      "title": "寰宇新聞財經台 24小時線上直播｜GlobalNewsTV 24h live news｜ 台湾のニュース24時間ライブ配信中 ｜대만 뉴스 생방송"
     },
     {
       "name": "台視新聞 TTV",
       "channel_id": "UC8ROUUjHzEQm-ndb69CX8Ww",
       "live_id": "9iRAqBMakXY",
-      "stale": true,
-      "source": "last run"
+      "title": "台視新聞台HD 24 小時線上直播｜TAIWAN TTV NEWS HD (Live)｜台湾のTTV ニュースHD (生放送)｜대만 뉴스 라이브"
     },
     {
       "name": "中視新聞 CTV",
       "channel_id": "UCmH4q-YjeazayYCVHHkGAMA",
       "live_id": "TCnaIE_SAtM",
-      "stale": true,
-      "source": "last run"
+      "title": "中視新聞LIVE直播頻道24小時線上直播｜Taiwan CTV news HD 24h live news |台湾のCTV ニュースHD 대만 24시간 뉴스채널  | (生放送)"
     },
     {
       "name": "非凡財經 USTV",
       "channel_id": "UCYIVkruUoN04UjV9pkBTswg",
       "live_id": "wAUx3pywTt8",
-      "stale": true,
-      "source": "last run"
+      "title": "USTV非凡電視"
     },
     {
       "name": "CNN International",
