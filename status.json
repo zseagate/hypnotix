@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T19:01:40Z",
+  "updated_at": "2026-11-07T00:41:46Z",
   "total": 14,
   "resolved": 14,
   "failed": 0,
@@ -7,10 +7,8 @@
     {
       "name": "中天新聞 CTI News",
       "channel_id": "UCpu3bemTQwAU8PqM4kJdoEQ",
-      "live_id": "vjH2LhTsk1w",
-      "stale": true,
-      "source": "last run",
-      "dead": true
+      "live_id": "Aa_2LwqxAXU",
+      "title": "【🔴LIVE直播中】台股血崩政府祭限空令5措施老農津貼加碼至1.5萬三讀通過蔣遇洋流店家這回應網稱讚陪伴變賠半總統臉書被灌爆｜蘇貞蓉/孫怡琳報新聞20261107@中天新聞CtiNews"
     },
     {
       "name": "東森新聞 EBC News",
