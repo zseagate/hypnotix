@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T12:56:28Z",
+  "updated_at": "2026-11-08T19:24:27Z",
   "total": 14,
   "resolved": 14,
   "failed": 0,
@@ -8,7 +8,9 @@
       "name": "中天新聞 CTI News",
       "channel_id": "UCpu3bemTQwAU8PqM4kJdoEQ",
       "live_id": "8AWqnIKER3c",
-      "title": "【🔴LIVE直播中】青鳥控\"掃街出征\"洋流店家?蔣萬安:支持者\"沒謾罵衝突\"川普邀UFC總裁當\"白宮發言人\"戰爭部長赫格塞斯\"四面楚歌\"｜何橞瑢報新聞 20261108@中天新聞CtiNews"
+      "stale": true,
+      "source": "last run",
+      "dead": true
     },
     {
       "name": "東森新聞 EBC News",
@@ -25,8 +27,8 @@
     {
       "name": "TVBS 新聞",
       "channel_id": "UC5nwNW4KdC0SzrhF9BXEYOQ",
-      "live_id": "5ZA5VM0JcpY",
-      "title": "教宗良十四世  訪烏拉圭主持彌撒｜LIVE"
+      "live_id": "m_dhMSvUCIc",
+      "title": "🔴LIVE：TVBS NEWS網路獨家新聞24小時直播 Taiwan News 24hr 台湾世界中のニュースを24時間配信中 대만24시간뉴스채널 55台"
     },
     {
       "name": "華視新聞 CTS",
@@ -49,8 +51,8 @@
     {
       "name": "寰宇新聞 SET",
       "channel_id": "UCp2f7tGJGN6R9Muxipem8Nw",
-      "live_id": "3v7aIdtWvvs",
-      "title": "🔴Live／【倒數20天】慧聚繁星 蘇巧慧蘆洲造勢晚會"
+      "live_id": "6IquAgfvYmc",
+      "title": "寰宇新聞24小時線上直播｜GlobalNewsTV 24h live news｜ 台湾のニュース24時間ライブ配信中 ｜대만 뉴스 생방송"
     },
     {
       "name": "寰宇財經",
