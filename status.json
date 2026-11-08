@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T21:35:08Z",
+  "updated_at": "2026-11-08T04:59:45Z",
   "total": 14,
   "resolved": 14,
   "failed": 0,
@@ -7,10 +7,8 @@
     {
       "name": "中天新聞 CTI News",
       "channel_id": "UCpu3bemTQwAU8PqM4kJdoEQ",
-      "live_id": "EcxAG1c-n2w",
-      "stale": true,
-      "source": "last run",
-      "dead": true
+      "live_id": "FupQyqlalL8",
+      "title": "【🔴LIVE直播中】蔣萬安掃街出征爭議!綠控\"假旗行動\"翻車?\"合法要飯\"又來了?柯志恩力抗綠國家級資源!波蘭無差別攻擊!川普敗選清算?｜譚若誼/林佩潔報新聞20261108 @中天新聞CtiNews"
     },
     {
       "name": "東森新聞 EBC News",
@@ -27,8 +25,8 @@
     {
       "name": "TVBS 新聞",
       "channel_id": "UC5nwNW4KdC0SzrhF9BXEYOQ",
-      "live_id": "m_dhMSvUCIc",
-      "title": "🔴LIVE：TVBS NEWS網路獨家新聞24小時直播 Taiwan News 24hr 台湾世界中のニュースを24時間配信中 대만24시간뉴스채널 55台"
+      "live_id": "bXdALLQ19Po",
+      "title": "洋流威力持續發酵  沈伯洋學界後援會成立｜LIVE"
     },
     {
       "name": "華視新聞 CTS",
@@ -51,8 +49,8 @@
     {
       "name": "寰宇新聞 SET",
       "channel_id": "UCp2f7tGJGN6R9Muxipem8Nw",
-      "live_id": "6IquAgfvYmc",
-      "title": "寰宇新聞24小時線上直播｜GlobalNewsTV 24h live news｜ 台湾のニュース24時間ライブ配信中 ｜대만 뉴스 생방송"
+      "live_id": "M-wnUCbFCaQ",
+      "title": "🔴Live／【倒數20天】最強牽手石舫亘 松山草埔市場拜票"
     },
     {
       "name": "寰宇財經",
