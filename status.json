@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T19:24:27Z",
+  "updated_at": "2026-11-09T00:37:44Z",
   "total": 14,
   "resolved": 14,
   "failed": 0,
@@ -7,10 +7,8 @@
     {
       "name": "中天新聞 CTI News",
       "channel_id": "UCpu3bemTQwAU8PqM4kJdoEQ",
-      "live_id": "8AWqnIKER3c",
-      "stale": true,
-      "source": "last run",
-      "dead": true
+      "live_id": "jfkS4jmGrxU",
+      "title": "【🔴LIVE直播中】政策護盤\"台股反攻拚4萬點\"造謠垃圾車廣播\"藍告發廖玉蕙\"｜黃仁勳坦承\"陸女間諜有婚外情\"利潤變薄\"藥局掀倒閉\"｜蘇貞蓉/黃韵筑 報新聞 20261109 @中天新聞CtiNews"
     },
     {
       "name": "東森新聞 EBC News",
