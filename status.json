@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T11:02:25Z",
+  "updated_at": "2026-11-09T22:03:15Z",
   "total": 14,
   "resolved": 14,
   "failed": 0,
@@ -8,7 +8,9 @@
       "name": "中天新聞 CTI News",
       "channel_id": "UCpu3bemTQwAU8PqM4kJdoEQ",
       "live_id": "1f_RN9pvnoU",
-      "title": "【🔴LIVE直播中】#謝寒冰#孫大千#栗正傑!黃仁勳翻車 掀中美國安核彈!傳APEC密令 高市跪習關鍵1握!蔣萬安爆擊 美財長竟求北京!|張雅婷辣晚報20261109完整版@中天新聞CtiNews"
+      "stale": true,
+      "source": "last run",
+      "dead": true
     },
     {
       "name": "東森新聞 EBC News",
@@ -19,14 +21,14 @@
     {
       "name": "東森財經新聞",
       "channel_id": "UCuzqko_GKcj9922M1gUo__w",
-      "live_id": "EPPjMM89eo0",
-      "title": "【財富達給厚LIVE】  國安基金6大護盤王選股！老黃風波AI能\"桃\"一劫？- 20261109 蔡侑達"
+      "live_id": "1I2iq41Akmo",
+      "title": "EBC 東森財經新聞24小時線上直播｜Taiwan EBC Financial News｜台湾 EBC 金融ニュース｜대만 뉴스 생방송"
     },
     {
       "name": "TVBS 新聞",
       "channel_id": "UC5nwNW4KdC0SzrhF9BXEYOQ",
-      "live_id": "vw7O4NdBXTU",
-      "title": "G7外長抵達法國 迎賓儀式正式登場｜原音呈現LIVE"
+      "live_id": "m_dhMSvUCIc",
+      "title": "🔴LIVE：TVBS NEWS網路獨家新聞24小時直播 Taiwan News 24hr 台湾世界中のニュースを24時間配信中 대만24시간뉴스채널 55台"
     },
     {
       "name": "華視新聞 CTS",
@@ -37,8 +39,8 @@
     {
       "name": "民視新聞 FTV",
       "channel_id": "UC2VmWn8dAqkzlQqvy02E1PA",
-      "live_id": "ssaA7q74Fx4",
-      "title": "【#一琪晚餐】2026.11.09完整版｜又一村千金霸氣嗆爆KMT ！ 一琪晚餐一起吃爆台派水餃！ 蔣萬安檢討被霸凌店家？徐巧芯聽不懂好light？ 陳又新RAP網讚爆！"
+      "live_id": "ylYJSBUgaMA",
+      "title": "🟢LIVE 民視新聞24小時直播  FTV 新聞直播｜Taiwan News Live｜台湾ニュース Live｜대만 뉴스 방송 Live @FTV_News"
     },
     {
       "name": "公視新聞 PTS",
