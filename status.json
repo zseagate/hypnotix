@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T16:52:32Z",
+  "updated_at": "2026-11-10T22:57:52Z",
   "total": 14,
   "resolved": 14,
   "failed": 0,
@@ -16,13 +16,13 @@
       "name": "東森新聞 EBC News",
       "channel_id": "UCR3asjvr_WAaxwJYEDV_Bfw",
       "live_id": "V1p33hqPrUk",
-      "title": "🔴東森新聞 51 頻道 24 小時直播｜Taiwan EBC 24h live news｜台湾 EBC ニュース24 時間オンライン放送｜대만 뉴스 생방송"
+      "title": "🔴東森新聞 51 頻道 24 小時直播｜Taiwan EBC 24h live news｜台湾 EBC ニュース24 時間オンライン放送｜대만 뉴스 생방송 2026-11-10 22:57"
     },
     {
       "name": "東森財經新聞",
       "channel_id": "UCuzqko_GKcj9922M1gUo__w",
       "live_id": "1I2iq41Akmo",
-      "title": "EBC 東森財經新聞24小時線上直播｜Taiwan EBC Financial News｜台湾 EBC 金融ニュース｜대만 뉴스 생방송"
+      "title": "EBC 東森財經新聞24小時線上直播｜Taiwan EBC Financial News｜台湾 EBC 金融ニュース｜대만 뉴스 생방송 2026-11-10 22:57"
     },
     {
       "name": "TVBS 新聞",
@@ -51,20 +51,20 @@
     {
       "name": "寰宇新聞 SET",
       "channel_id": "UCp2f7tGJGN6R9Muxipem8Nw",
-      "live_id": "6IquAgfvYmc",
-      "title": "寰宇新聞24小時線上直播｜GlobalNewsTV 24h live news｜ 台湾のニュース24時間ライブ配信中 ｜대만 뉴스 생방송"
+      "live_id": "Y8eZYHy8BDc",
+      "title": "納坦雅胡時代終結? 艾森科特開始進行組閣工作 ｜美伊談判停滯 川普:有進展就極不可能發動新攻擊   寰宇新聞台Global News TV ｜GlobalNewsTV 24h live news 2026-11-10 22:57"
     },
     {
       "name": "寰宇財經",
       "channel_id": "UCSZwcE1d1SAGyc1yvQGSOjQ",
       "live_id": "yAUQQ0DhPxI",
-      "title": "寰宇新聞財經台 24小時線上直播｜GlobalNewsTV 24h live news｜ 台湾のニュース24時間ライブ配信中 ｜대만 뉴스 생방송 2026-11-10 16:52"
+      "title": "寰宇新聞財經台 24小時線上直播｜GlobalNewsTV 24h live news｜ 台湾のニュース24時間ライブ配信中 ｜대만 뉴스 생방송"
     },
     {
       "name": "台視新聞 TTV",
       "channel_id": "UC8ROUUjHzEQm-ndb69CX8Ww",
       "live_id": "9iRAqBMakXY",
-      "title": "台視新聞台HD 24 小時線上直播｜TAIWAN TTV NEWS HD (Live)｜台湾のTTV ニュースHD (生放送)｜대만 뉴스 라이브 2026-11-10 16:52"
+      "title": "台視新聞台HD 24 小時線上直播｜TAIWAN TTV NEWS HD (Live)｜台湾のTTV ニュースHD (生放送)｜대만 뉴스 라이브"
     },
     {
       "name": "中視新聞 CTV",
