@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T22:57:52Z",
+  "updated_at": "2026-11-11T05:10:48Z",
   "total": 14,
   "resolved": 14,
   "failed": 0,
@@ -7,28 +7,26 @@
     {
       "name": "中天新聞 CTI News",
       "channel_id": "UCpu3bemTQwAU8PqM4kJdoEQ",
-      "live_id": "1f_RN9pvnoU",
-      "stale": true,
-      "source": "last run",
-      "dead": true
+      "live_id": "QW8etTM3p6c",
+      "title": "【🔴LIVE直播中】蔣萬安掀海巡潮！莒光日播沈伯洋影片？鄭麗文曝三縣市危險！黃仁勳照常上班先做一件事！黃樂有正牌老公？｜林佩潔 洪淑芬報新聞 20261111 @中天電視CtiTv"
     },
     {
       "name": "東森新聞 EBC News",
       "channel_id": "UCR3asjvr_WAaxwJYEDV_Bfw",
-      "live_id": "V1p33hqPrUk",
-      "title": "🔴東森新聞 51 頻道 24 小時直播｜Taiwan EBC 24h live news｜台湾 EBC ニュース24 時間オンライン放送｜대만 뉴스 생방송 2026-11-10 22:57"
+      "live_id": "F9yhay_2KSY",
+      "title": "🔴1111【Live】1140-1400東森午安新聞／今晨最低溫13.4度明回暖！下周三變天東北季風.冷空氣強襲／共諜黃樂是人妻！與丈夫康偉合照曝光／政府追查黃樂！劉世芳：已廢證「她不可能再來台灣」"
     },
     {
       "name": "東森財經新聞",
       "channel_id": "UCuzqko_GKcj9922M1gUo__w",
       "live_id": "1I2iq41Akmo",
-      "title": "EBC 東森財經新聞24小時線上直播｜Taiwan EBC Financial News｜台湾 EBC 金融ニュース｜대만 뉴스 생방송 2026-11-10 22:57"
+      "title": "EBC 東森財經新聞24小時線上直播｜Taiwan EBC Financial News｜台湾 EBC 金融ニュース｜대만 뉴스 생방송"
     },
     {
       "name": "TVBS 新聞",
       "channel_id": "UC5nwNW4KdC0SzrhF9BXEYOQ",
-      "live_id": "m_dhMSvUCIc",
-      "title": "🔴LIVE：TVBS NEWS網路獨家新聞24小時直播 Taiwan News 24hr 台湾世界中のニュースを24時間配信中 대만24시간뉴스채널 55台"
+      "live_id": "6y-gOxT0dCs",
+      "title": "註定談不了純愛！黃仁勳外遇牽動中美晶片戰 輝達知情全力保黃？財務長特別替Megaspeed關說？ 2026-11-11 05:10"
     },
     {
       "name": "華視新聞 CTS",
@@ -51,8 +49,8 @@
     {
       "name": "寰宇新聞 SET",
       "channel_id": "UCp2f7tGJGN6R9Muxipem8Nw",
-      "live_id": "Y8eZYHy8BDc",
-      "title": "納坦雅胡時代終結? 艾森科特開始進行組閣工作 ｜美伊談判停滯 川普:有進展就極不可能發動新攻擊   寰宇新聞台Global News TV ｜GlobalNewsTV 24h live news 2026-11-10 22:57"
+      "live_id": "6IquAgfvYmc",
+      "title": "寰宇新聞24小時線上直播｜GlobalNewsTV 24h live news｜ 台湾のニュース24時間ライブ配信中 ｜대만 뉴스 생방송"
     },
     {
       "name": "寰宇財經",
@@ -76,7 +74,7 @@
       "name": "非凡財經 USTV",
       "channel_id": "UCYIVkruUoN04UjV9pkBTswg",
       "live_id": "wAUx3pywTt8",
-      "title": "USTV非凡電視"
+      "title": "USTV非凡電視 2026-11-11 05:10"
     },
     {
       "name": "CNN International",
