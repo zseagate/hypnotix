@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T05:10:48Z",
+  "updated_at": "2026-11-11T13:45:17Z",
   "total": 14,
   "resolved": 14,
   "failed": 0,
@@ -8,25 +8,27 @@
       "name": "中天新聞 CTI News",
       "channel_id": "UCpu3bemTQwAU8PqM4kJdoEQ",
       "live_id": "QW8etTM3p6c",
-      "title": "【🔴LIVE直播中】蔣萬安掀海巡潮！莒光日播沈伯洋影片？鄭麗文曝三縣市危險！黃仁勳照常上班先做一件事！黃樂有正牌老公？｜林佩潔 洪淑芬報新聞 20261111 @中天電視CtiTv"
+      "stale": true,
+      "source": "last run",
+      "dead": true
     },
     {
       "name": "東森新聞 EBC News",
       "channel_id": "UCR3asjvr_WAaxwJYEDV_Bfw",
-      "live_id": "F9yhay_2KSY",
-      "title": "🔴1111【Live】1140-1400東森午安新聞／今晨最低溫13.4度明回暖！下周三變天東北季風.冷空氣強襲／共諜黃樂是人妻！與丈夫康偉合照曝光／政府追查黃樂！劉世芳：已廢證「她不可能再來台灣」"
+      "live_id": "ANIoQADOhXU",
+      "title": "🔴1111【Live】1955-2155東森世界日報／黃仁勳若下台？陸行之點名2大受惠者：恐對台不利／封殺無效？路透：陸國防七子名校買到輝達晶片／南韓通勤尖峰連環車禍！公車追撞32車釀57傷 2026-11-11 13:44"
     },
     {
       "name": "東森財經新聞",
       "channel_id": "UCuzqko_GKcj9922M1gUo__w",
       "live_id": "1I2iq41Akmo",
-      "title": "EBC 東森財經新聞24小時線上直播｜Taiwan EBC Financial News｜台湾 EBC 金融ニュース｜대만 뉴스 생방송"
+      "title": "EBC 東森財經新聞24小時線上直播｜Taiwan EBC Financial News｜台湾 EBC 金融ニュース｜대만 뉴스 생방송 2026-11-11 13:44"
     },
     {
       "name": "TVBS 新聞",
       "channel_id": "UC5nwNW4KdC0SzrhF9BXEYOQ",
-      "live_id": "6y-gOxT0dCs",
-      "title": "註定談不了純愛！黃仁勳外遇牽動中美晶片戰 輝達知情全力保黃？財務長特別替Megaspeed關說？ 2026-11-11 05:10"
+      "live_id": "m_dhMSvUCIc",
+      "title": "🔴LIVE：TVBS NEWS網路獨家新聞24小時直播 Taiwan News 24hr 台湾世界中のニュースを24時間配信中 대만24시간뉴스채널 55台"
     },
     {
       "name": "華視新聞 CTS",
@@ -38,7 +40,7 @@
       "name": "民視新聞 FTV",
       "channel_id": "UC2VmWn8dAqkzlQqvy02E1PA",
       "live_id": "ylYJSBUgaMA",
-      "title": "🟢LIVE 民視新聞24小時直播  FTV 新聞直播｜Taiwan News Live｜台湾ニュース Live｜대만 뉴스 방송 Live @FTV_News"
+      "title": "🟢LIVE 民視新聞24小時直播  FTV 新聞直播｜Taiwan News Live｜台湾ニュース Live｜대만 뉴스 방송 Live @FTV_News 2026-11-11 13:44"
     },
     {
       "name": "公視新聞 PTS",
@@ -62,19 +64,19 @@
       "name": "台視新聞 TTV",
       "channel_id": "UC8ROUUjHzEQm-ndb69CX8Ww",
       "live_id": "9iRAqBMakXY",
-      "title": "台視新聞台HD 24 小時線上直播｜TAIWAN TTV NEWS HD (Live)｜台湾のTTV ニュースHD (生放送)｜대만 뉴스 라이브"
+      "title": "台視新聞台HD 24 小時線上直播｜TAIWAN TTV NEWS HD (Live)｜台湾のTTV ニュースHD (生放送)｜대만 뉴스 라이브 2026-11-11 13:45"
     },
     {
       "name": "中視新聞 CTV",
       "channel_id": "UCmH4q-YjeazayYCVHHkGAMA",
       "live_id": "TCnaIE_SAtM",
-      "title": "中視新聞LIVE直播頻道24小時線上直播｜Taiwan CTV news HD 24h live news |台湾のCTV ニュースHD 대만 24시간 뉴스채널  | (生放送)"
+      "title": "中視新聞LIVE直播頻道24小時線上直播｜Taiwan CTV news HD 24h live news |台湾のCTV ニュースHD 대만 24시간 뉴스채널  | (生放送) 2026-11-11 13:45"
     },
     {
       "name": "非凡財經 USTV",
       "channel_id": "UCYIVkruUoN04UjV9pkBTswg",
       "live_id": "wAUx3pywTt8",
-      "title": "USTV非凡電視 2026-11-11 05:10"
+      "title": "USTV非凡電視 2026-11-11 13:45"
     },
     {
       "name": "CNN International",
