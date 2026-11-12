@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T17:26:04Z",
+  "updated_at": "2026-11-12T23:18:51Z",
   "total": 14,
   "resolved": 14,
   "failed": 0,
@@ -7,10 +7,8 @@
     {
       "name": "中天新聞 CTI News",
       "channel_id": "UCpu3bemTQwAU8PqM4kJdoEQ",
-      "live_id": "KCGAhNNpqj0",
-      "stale": true,
-      "source": "last run",
-      "dead": true
+      "live_id": "h8A5eBDpqqQ",
+      "title": "【🔴LIVE直播中】黃仁勳\"辭職下台\"路透再爆有\"小五\"?｜藍營\"甲動\"集結蔣萬安今\"合體韓國瑜\"｜孫怡琳/譚若誼報新聞 20261113 @中天新聞CtiNews"
     },
     {
       "name": "東森新聞 EBC News",
