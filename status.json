@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T14:08:13Z",
+  "updated_at": "2026-11-13T21:15:33Z",
   "total": 14,
   "resolved": 14,
   "failed": 0,
@@ -8,7 +8,9 @@
       "name": "中天新聞 CTI News",
       "channel_id": "UCpu3bemTQwAU8PqM4kJdoEQ",
       "live_id": "7sxa1tqbOsM",
-      "title": "【🔴LIVE直播中】黃仁勳閃電辭職形象毀 婚外情連環爆劈腿三人?｜羅大佑講真話遭綠出征 蔡英文發文討拍被嗆爆｜中天SUPER夜線 20261113 @中天新聞CtiNews"
+      "stale": true,
+      "source": "last run",
+      "dead": true
     },
     {
       "name": "東森新聞 EBC News",
