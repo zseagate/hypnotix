@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T21:15:33Z",
+  "updated_at": "2026-11-14T05:27:00Z",
   "total": 14,
   "resolved": 14,
   "failed": 0,
@@ -7,16 +7,14 @@
     {
       "name": "中天新聞 CTI News",
       "channel_id": "UCpu3bemTQwAU8PqM4kJdoEQ",
-      "live_id": "7sxa1tqbOsM",
-      "stale": true,
-      "source": "last run",
-      "dead": true
+      "live_id": "Ze2JoYip8Ls",
+      "title": "【中天直播#LIVE】柯志恩、賴瑞隆正面對決 高雄市長公辦政見發表會 20261114 @中天新聞CtiNews"
     },
     {
       "name": "東森新聞 EBC News",
       "channel_id": "UCR3asjvr_WAaxwJYEDV_Bfw",
       "live_id": "V1p33hqPrUk",
-      "title": "🔴【黃仁勳辭去輝達3職務】東森新聞 51 頻道 24 小時直播｜Taiwan EBC 24h live news｜台湾 EBC ニュース24 時間オンライン放送｜대만 뉴스 생방송"
+      "title": "🔴東森新聞 51 頻道 24 小時直播｜Taiwan EBC 24h live news｜台湾 EBC ニュース24 時間オンライン放送｜대만 뉴스 생방송"
     },
     {
       "name": "東森財經新聞",
