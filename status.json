@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T05:27:00Z",
+  "updated_at": "2026-11-14T13:09:09Z",
   "total": 14,
   "resolved": 14,
   "failed": 0,
@@ -8,7 +8,9 @@
       "name": "中天新聞 CTI News",
       "channel_id": "UCpu3bemTQwAU8PqM4kJdoEQ",
       "live_id": "Ze2JoYip8Ls",
-      "title": "【中天直播#LIVE】柯志恩、賴瑞隆正面對決 高雄市長公辦政見發表會 20261114 @中天新聞CtiNews"
+      "stale": true,
+      "source": "last run",
+      "dead": true
     },
     {
       "name": "東森新聞 EBC News",
@@ -25,8 +27,8 @@
     {
       "name": "TVBS 新聞",
       "channel_id": "UC5nwNW4KdC0SzrhF9BXEYOQ",
-      "live_id": "m_dhMSvUCIc",
-      "title": "🔴LIVE：TVBS NEWS網路獨家新聞24小時直播 Taiwan News 24hr 台湾世界中のニュースを24時間配信中 대만24시간뉴스채널 55台"
+      "live_id": "LBtzKMH_LvQ",
+      "title": "【LIVE】與友聊天遭7惡煞強擄捆綁痛毆 警埋伏3hrs攔車營救 清潔隊員自認影響交通 持鋸砍斷「芭樂樹」 恐嚇屋主全家死光"
     },
     {
       "name": "華視新聞 CTS",
